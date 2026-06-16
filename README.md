@@ -1,4 +1,4 @@
-# smooth emulator software
+# smooth emulator software, Version 0.5
 
 Authors: Scott Pratt, Oleh Savchuk, Eren Erdogan, Ekaksh Kataria
 
