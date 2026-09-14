@@ -1,4 +1,4 @@
-# smooth emulator software, Version 0.5
+# smooth emulator software
 
 Authors: Scott Pratt, Oleh Savchuk, Eren Erdogan, Ekaksh Kataria
 
@@ -11,4 +11,4 @@ depending on whether you are installing on a Mac or on Linux.
 The Mac script will install some standard packages (specific C++ compilers...) through the homebrew program. That software will be located in the /opt/homebrew/ directory. 
 The Linux script will install the corresponding packages using apt-get. If you wish to use a different package manager, or if you wish to change which version of the various packages is installed, you can edit the script.
 
-Detailed installation directions and descriptions can be found in the user manual, (./doc/UserManual.pdf).
+Detailed installation directions and descriptions can be found in the [user manual](/doc/UserManual.pdf).
