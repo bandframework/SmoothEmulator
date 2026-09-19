@@ -11,7 +11,7 @@ MacOS users can build the software package by executing
 ```
 % INSTALL_MAC.sh
 ```
-Linux users,
+Meanwhile, Linux users should execute
 ```
 % INSTALL_LINUX_APT-GET.sh
 ```
