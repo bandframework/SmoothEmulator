@@ -1,14 +1,21 @@
-# smooth emulator software
+# Smooth Emulator software
 
 Authors: Scott Pratt, Oleh Savchuk, Eren Erdogan, Ekaksh Kataria
 
-To install, go to the ./software/ directory and enter
+To install, please first
+* clone this repository,
+* checkout the commit/tag associated with the desired version of Smooth Emulator, and
+* change to the [software](/software) directory.
+
+MacOS users can build the software package by executing
+```
 % INSTALL_MAC.sh
-or
+```
+Meanwhile, Linux users should execute
+```
 % INSTALL_LINUX_APT-GET.sh
-depending on whether you are installing on a Mac or on Linux. 
+```
+The Mac script will install or potentially upgrade some standard packages (specific C++ compilers...) through the `homebrew` program; 
+the Linux script, install or potentially upgrade using `apt-get`.  Detailed installation directions and descriptions can be found in the [user manual](/doc/UserManual.pdf).  If you wish to use a different package manager, or if you wish to change which version of the various packages is installed, you can edit the script.
 
-The Mac script will install some standard packages (specific C++ compilers...) through the homebrew program. That software will be located in the /opt/homebrew/ directory. 
-The Linux script will install the corresponding packages using apt-get. If you wish to use a different package manager, or if you wish to change which version of the various packages is installed, you can edit the script.
-
-Detailed installation directions and descriptions can be found in the [user manual](/doc/UserManual.pdf).
+Release tarballs are located in the root of the repository, and the installation procedure from tarball is essentially the same as above.
